@@ -1,2 +1,26 @@
-.conda
+# Conda environment files
+env/
+*.yml
+*.yaml
+
+# Compiled Python files
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# IDE/Editor specific files
+.vscode/
+
+# Local configuration files
 .env
+*.local
+
+# Python artifacts
+*.log
+dist/
+build/
+*.egg-info/
+*.egg
